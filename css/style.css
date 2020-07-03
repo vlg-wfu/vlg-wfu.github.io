@@ -1,0 +1,387 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body{
+    font-family: Palatino Linotype, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13pt;
+}
+.icon-block {
+  padding: 0 0px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+
+.author{
+    font-size: 16pt;
+}
+.school{
+    font-size: 12pt;
+}
+
+.title{
+    font-size: 20pt;
+    font-weight: bold;
+}
+.subtitle{
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+pre{
+    font-size: 12pt;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+}
+
+
+.nav-item{
+    font-size: 12pt !important;
+    color: #000000;
+}
+
+.brand-logo {
+  font-size: 16pt !important;
+  color: #000000 !important;
+}
+.navbar-color { 
+  background-color: rgba(255,255,255,0.5) !important;
+}
+
+.navbar-fixed{
+  /*background-color: rgba(255,255,0,1) !important;*/
+}
+.parallax-container {
+  /*height: 500pt;*/
+}
+
+.tabs .tab a{
+  color: #0d47a1 !important;
+}
+.tabs .tab a:hover {
+  color: #42a5f5 !important;
+}
+
+.tabs .indicator {
+    background-color: #0d47a1 !important;
+}
+
+.col-img{
+  /*width: 30%;*/
+}
+
+.col-img > img{
+  max-height: 150px;
+  width: auto !important;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+
+.col-paper{
+  width: 70%;
+  text-align: top;
+}
+
+.paper-title > a{
+  color: #1a237e !important;
+}
+
+.paper-title > a:hover{
+  color: #5c6bc0   !important;
+}
+
+.paper-link > a{
+  color: #2196f3  !important;
+}
+
+.paper-link > a:hover{
+  color: #64b5f6   !important;
+}
+
+.people-photo{
+  border-radius: 100px;
+}
+.people-photo{
+    -webkit-transition: all 0.25s ease; /* Safari and Chrome */
+    -moz-transition: all 0.25s ease; /* Firefox */
+    -o-transition: all 0.25s ease; /* IE 9 */
+    -ms-transition: all 0.25s ease; /* Opera */
+    transition: all 0.25s ease;
+}
+.people-photo:hover {
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
+}
+
+.people-name{
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.people-section-faculty{
+  padding-top: 20px;
+  padding-bottom: 20px; 
+  background-color: #f5f5f5;
+}
+
+.people-section-phd{
+  padding-top: 20px; 
+  padding-bottom: 20px; 
+}
+
+.people-section-ms{
+  padding-top: 20px; 
+  padding-bottom: 20px; 
+  background-color: #f5f5f5;
+}
+
+.people-section-alumni{
+  padding-top: 20px;
+  padding-bottom: 20px; 
+}
+
+.people-section-visiting{
+  padding-top: 20px;
+  padding-bottom: 20px; 
+  background-color: #f5f5f5;
+}
+
+.people-section-collaborator{
+  padding-top: 20px;
+  padding-bottom: 20px; 
+}
+
+.people-topic{
+  font-style: italic;
+  color: #1a237e;
+}
+
+
+.main-section-1{
+  padding: 100px 0px;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #f0f0f0;
+}
+.main-section-2 {
+  padding: 100px 0;
+  border-bottom: 1px solid #e7e7e7;
+}
+.main-section-3 {
+  padding: 100px 0;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #f0f0f0;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.main-bottom-img{
+  margin-bottom: -20px;
+}
+
+.main-news-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.news-time{
+  color: #888888 !important;
+  padding-right: 10px;
+}
+
+
+#login-modal { width: 40% !important;  }
+
+@media only screen and (max-width : 992px) {
+  #login-modal { width: 50% !important;  }
+}
+
+@media only screen and (max-width : 600px) {
+  #login-modal { width: 80% !important;  }
+}
+
+#conference-modal { width: 50% !important; }
+#journal-modal { width: 50% !important;  }
+
+@media only screen and (max-width : 600px) {
+  #conference-modal { width: 80% !important;  }
+  #journal-modal { width: 80% !important;  }
+}
+
+
+.button-collapse{
+  color: #555555;
+}
+
+.login-error{
+  color: red;
+}
+
+#error-message{
+  padding-left: 5px;
+}
+
+#paper-message{
+  padding-left: 5px;
+  color: green;
+}
+#nav-dropdown-triangle{
+  background-color: #555555 !important;
+}
+
+#home{
+  padding-top: 100px;
+  background: url("../images/home/wfust_4.jpg") no-repeat center;
+  opacity: 1;
+  /*background-image: url("../images/home/ucmerced.jpg");
+  background-repeat: no-repeat;*/
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  color: #000000;
+}
+#main-bottom{
+  background: url("../images/home/ucmerced4_1.jpeg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+#news{
+  background: url("../images/home/wfust_1.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+#people{
+  background: url("../images/home/wfust_3.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+#research{
+  background: url("../images/home/wfust_5.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+#publication{
+  background: url("../images/home/wfust_2.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+#contact{
+  background: url("../images/home/wfust_1.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+#other1{
+  background: url("../images/home/other1.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+.main-title{
+  text-shadow: 1px 1px #AAAAAA;
+  color: #000000;
+}
+.news-title{
+  text-shadow: 2px 2px #555555;
+  color: #FFFFFF;
+}
+
+.main-bottom-img{
+  height: 70vh;
+  width: 100%;
+}
+
+.footer-content{
+  padding-top: 50px;
+  height: 350px;
+}
+
+
+@media only screen and (max-width : 992px) {
+  .footer-content{
+    padding-top: 50px;
+    height: 550px;
+  }
+
+}
+
+@media only screen and (max-width : 600px) {
+  .footer-content{
+    padding-top: 50px;
+    height: 550px;
+  }
+  
+}
+
+
+.footer-header1{
+  font-size: 24pt;
+}
+
+
+.footer-header2{
+  font-size: 14pt;
+}
+
+.footer-context{
+  font-size: 12pt;
+}
+
+
+.footer-header1 > a:link{
+  color: #ffffff;
+}
+.footer-header1 > a:visited{
+  color: #ffffff;
+}
+.footer-header1 > a:hover{
+  color: #ffffff;
+}
+
+.footer-header2 > a:link{
+  color: #bdbdbd;
+}
+.footer-header2 > a:visited{
+  color: #bdbdbd;
+}
+.footer-header2 > a:hover{
+  color: #fafafa;
+}
+
+footer{
+  margin-top: 0px !important;
+}
+
+#map {
+  padding-bottom: 30px;
+}
+
+#footer-block1 {
+  padding-bottom: 30px;
+}
+
+#footer-block2 {
+  padding-bottom: 30px;
+}
