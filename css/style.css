@@ -287,6 +287,12 @@ pre{
   width: 100%;
   height: 70vh;
 }
+#teaching{
+  background: url("../images/home/wfust_6.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
 #contact{
   background: url("../images/home/wfust_1.jpg") no-repeat center;
   background-size: cover;
