@@ -37,6 +37,9 @@ $(document).ready(function(){
 
 }); // end of document ready
 
+
+
+/*
 function query_firebase(type, start_year, current_year) {
 
         var tab = $("#" + type);
@@ -259,3 +262,4 @@ function month_str(month) {
     }
 
 }
+*/
