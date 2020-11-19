@@ -16,8 +16,6 @@ The following figure demonstrates the structure of assignment 3. Given a gray im
 
 1. Add Gaussian noise to the original image with mean $\mu$=0, standard deviation $\sigma$=0.05, 0.1, 0.5, 1.0. 
 
-   
-
 2. Add Salt-and-Pepper noise to the original image.
 
 3. Apply mean filter and gaussian filter to the contaminated image by Gaussian noise.
@@ -71,7 +69,7 @@ Make sure your code can be run completely bug-free. Our staff will run the codes
 Following the procedure to submit your work:
 
 1. Before submitting, remember to fill your **name and student ID** into the table at the top of the file.
-5. Send the **script file** via email: [dip_course@126.com](mailto:dip_course@126.com) with title in pattern `"DIP07010667-hw3-{name}-{id}-2020autumn".format(name="john", id="123456")` for instance: `DIP07010667-hw2-john-123456-2020autumn` 
+5. Send the **script file** via email: [dip_course@126.com](mailto:dip_course@126.com) with title in pattern `"DIP07010667-hw3-{name}-{id}-2020autumn".format(name="john", id="123456")` for instance: `DIP07010667-hw3-john-123456-2020autumn` 
 3. This assignment will be implemented by each student instead of a group.
 
 
