@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<!-- 
+  @Author: Xinyu Ou
+  @Date:   2019-12-04 11:04:20
+  @Last Modified by:   Your name
+  @Last Modified time: 2020-01-04 22:16:52
+-->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Python快速编程入门课程安排</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style type="text/css">
+        html {
+            height: 100%;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font: normal 1em 'trebuchet ms', arial, sans-serif;
+            color: #5D5D5D;
+        }
+        
+        h1 {
+            text-align: center;
+            font: bold 200% 'century gothic', arial, sans-serif;
+            margin: 20px 0;
+            padding: 15px 0 5px 0;
+        }
+        
+        h2 {
+            text-align: center;
+            line-height: 2em;
+            margin-top: 30px;
+        }
+        
+        h3 {
+            font: normal 125% 'century gothic', arial, sans-serif;
+            color: #43423F;
+            margin: 0 0 15px 0;
+            padding: 15px 0 5px 0;
+        }
+        
+        p {
+            line-height: 1.8em;
+        }
+        
+        a,
+        a:hover {
+            outline: none;
+            text-decoration: none;
+            color: #A4AA04;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            color: #5D5D5D;
+        }
+        
+        #Notice {
+            margin: 20px 0;
+            width: 100%;
+            background-color: seashell;
+        }
+        
+        #Documents {
+            margin: 20px 0;
+            width: 100%;
+        }
+        
+        #NoticeContent,
+        .DocumentsContent {
+            width: 1280px;
+            margin: 0 auto;
+            line-height: 1.8em;
+        }
+        
+        #Syllabus {
+            width: 1280px;
+            margin: 0 auto;
+        }
+        
+        #Syllabus table {
+            width: 100%;
+        }
+        
+        #Syllabus td {
+            margin: 10px;
+            border-bottom: silver 1px solid;
+            vertical-align: top;
+            padding: 10px;
+        }
+        
+        .SyllabusTitle {
+            height: 40px;
+            line-height: 40px;
+            background-color: whitesmoke;
+        }
+        
+        .SyllabusDiscussion {
+            background-color: lavender;
+        }
+        
+        #Syllabus li {
+            line-height: 30px;
+            list-style-type: none;
+        }
+        
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <h1>Python程序设计（Python Programming）</h1>
+    <div id="Notice">
+        <div id="NoticeContent">
+            <h3>课程简介</h3>
+            <p style="text-indent: 2em;">《Python程序设计》是面向计算机相关专业的一门专业基础课，涉及Python语法、数据类型、函数、文件操作、异常、模块、面向对象等内容。通过本课程的学习，学生能够掌握Python开发的基础知识，可以独立开发Python简单的项目程序。</p>
+            <h3>教学内容</h3>
+            <p style="text-indent: 2em;">课堂讲授(含实验）48学时（3学分）。主要包括：Python概述，语法基础，常用语句，字符串，列表、元祖和字典，函数，Python文件操作，异常，Python模块，面向对象及案例分析。</p>
+            <br />
+            <!--<p style="text-indent: 2em;">本课程的考勤、作业提交、课堂练习、期末测验将使用<a href="https://www.ketangpai.com/" target="_blank">课堂派</a>平台，请各位同学使用实名（学号）加入课程。在使用方面有疑问的同学可以参考<a href="Attachments/KTP_handbook_students.pdf" target="_blank">使用手册—学生版</a>。加入课程请扫描二维码，或注册后使用加课码加入：<a href="Attachments/KTP_CourseID_2020Spring.png"
+                    target="_blank">课程二维码及课程码</a>。</p> -->
+            <p style="text-indent: 2em;"></p>
+            <!--<br /> -->
+        </div>
+    </div>
+
+    <div id="Documents">
+        <div class="DocumentsContent">
+            教学文件：
+            <a href="" target="_blank">教学大纲</a>
+            <a href="" target="_blank">教学计划</a>
+        </div>
+    </div>
+
+    <div id="Syllabus">
+        <h2>课程进度计划表</h2>
+        <table>
+            <tr class="SyllabusTitle">
+                <th>Event Type</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Course Materials</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Lecture 1</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week1</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>第1讲 Python概述</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="PDF/Ch00Guidance.pdf" target="_blank">[Slide]</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            
+            <tr class="SyllabusDiscussion">
+                <td>
+                    <ul>
+                        <li>Programming</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week2 Section1</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Python环境安装和配置</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <ul>
+                        <li>Lecture 2</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week2 Section2</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>第2讲 Python基础</li>
+                    </ul>
+                </td>
+                <td>
+                    <!--<ul>
+                        <li><a href="PDF/Ch01AIntroduction.pdf" target="_blank">[Slide]</a></li>
+                    </ul> -->
+                </td>
+            </tr>
+            
+            <tr class="SyllabusDiscussion">
+                <td>
+                    <ul>
+                        <li>Programming</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week3</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Python基础练习</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <ul>
+                        <li>Lecture 3</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week4 Section1</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>第3讲 流程控制</li>
+                    </ul>
+                </td>
+                <td>
+                    <!--<ul>
+                        <li>
+                            <a href="PDF/Ch03KNN.pdf" target="_blank">[Slide]</a>
+                        </li>
+                        <li>
+                            <a href="Codes/Ch03KNN.rar" target="_blank">[源代码]</a>
+                        </li>
+                        <li>
+                            <a href="Html/Ch03KNNAssignment.html" target="_blank">课后作业</a>
+                            <a href="Html/Ch03KNNAnswers.html" target="_blank">(答案</a>
+                            <a href="NotebooksPDF/Ch03KNNAnswers.pdf" target="_blank">[PDF])</a>
+                        </li>
+                    </ul> -->
+                </td>
+            </tr>
+            
+            <tr class="SyllabusDiscussion">
+                <td>
+                    <ul>
+                        <li>Programming</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week4 Section2</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>流程控制练习</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <ul>
+                        <li>Lecture 4</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week5</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>第4讲 字符串</li>
+                    </ul>
+                </td>
+                <td>
+                    <!--<ul>
+                        <li>
+                            <a href="PDF/Ch04LinearModels.pdf" target="_blank">[Slide]</a>
+                        </li>
+                        <li>
+                            <a href="Codes/Ch04LinearModels.rar" target="_blank">[源代码]</a>
+                        </li>
+                        <li>
+                             <a href="javascript:window.open(root+ 'Ch04LinearModelsAssignment.ipynb','_blank')">课后作业</a> 
+                            <a href="Html/Ch04LinearModelsAssignment.html" target="_blank">课后作业</a>
+                             <a class="hidden" href="javascript:window.open(root+ 'Ch04LinearModelsAnswers.ipynb','_blank')">(答案)</a> 
+                            <a href="Html/Ch04LinearModelsAnswers.html" target="_blank">(答案</a>
+                            <a href="NotebooksPDF/Ch04LinearModelsAnswers.pdf" target="_blank">[PDF])</a>
+                        </li>
+                    </ul> -->
+                </td>
+            </tr>
+            
+            <tr class="SyllabusDiscussion">
+                <td>
+                    <ul>
+                        <li>Programming</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week6 Section1</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>字符串练习</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <ul>
+                        <li>Lecture 5</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week6 Section2</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>第5讲 组合数据类型</li>
+                    </ul>
+                </td>
+                <td>
+                    <!--<ul>
+                        <li>
+                            <a href="PDF/Ch05NaiveBayes.pdf" target="_blank">[Slide]</a>
+                        </li>
+                        <li>
+                            <a class="hidden" href="Codes/Ch05NaiveBayes.rar" target="_blank">[源代码]</a>
+                        </li>
+                        <li>
+                            <a href="Html/Ch05NaiveBayesAssignment.html" target="_blank">课后作业</a>
+                            <a href="Html/Ch05NaiveBayesAnswers.html" target="_blank">(答案</a>
+                            <a href="NotebooksPDF/Ch05NaiveBayesAnswers.pdf " target="_blank">[PDF])</a>
+                        </li>
+                    </ul> -->
+                </td>
+            </tr>
+            
+            <tr class="SyllabusDiscussion">
+                <td>
+                    <ul>
+                        <li>Programming</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week7</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>组合数据练习</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <ul>
+                        <li>Lecture 6</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week8 Section1</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>第6讲 函数</li>
+                    </ul>
+                </td>
+                <td>
+                    <!--<ul>
+                        <li>
+                            <a href="PDF/Ch06DecisionTree.pdf" target="_blank">[Slide]</a>
+                        </li>
+                        <li>
+                            <a href="Codes/Ch06DecisionTree.rar" target="_blank">[源代码]</a>
+                        </li>
+                        <li>
+                            <a href="Html/Ch06DecisionTreeAssignment.html" target="_blank">课后作业</a>
+                            <a href="Html/Ch06DecisionTreeAnswers.html" target="_blank">(答案</a>
+                            <a href="NotebooksPDF/Ch06DecisionTreeAnswers.pdf" target="_blank">[PDF])</a>
+                        </li>
+                    </ul> -->
+                </td>
+            </tr>
+            
+            <tr class="SyllabusDiscussion">
+                <td>
+                    <ul>
+                        <li>Programming</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week8 Section2</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>函数练习</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <ul>
+                        <li>Lecture 7</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week9</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>第7讲 文件与数据格式化</li> 
+                    </ul>
+                </td>
+                <td>
+                    <!--<ul>
+                        <li>
+                            <a href="PDF/Ch07SVM.pdf" target="_blank">[Slide]</a>
+                        </li>
+                        <li>
+                            <a href="Codes/Ch07SVM.rar" target="_blank">[源代码]</a>
+                        </li>
+                        <li>
+                            <a href="javascript:window.open(root+ 'Ch07SVMAssignment.ipynb','_blank')">课后作业</a>
+                            <a href="Html/Ch07SVMAssignment.html" target="_blank">课后作业</a>
+                            <a class="hidden" href="javascript:window.open(root+ 'Ch07SVMAnswers.ipynb','_blank')">(答案)</a>
+                            <a href="Html/Ch07SVMAnswers.html" target="_blank">(答案</a>
+                            <a href="NotebooksPDF/Ch07SVMAnswers.pdf" target="_blank">[PDF])</a>
+                        </li>
+                    </ul> -->
+                </td>
+            </tr>
+            
+            <tr class="SyllabusDiscussion">
+                <td>
+                    <ul>
+                        <li>Programming</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week10 Section1</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>文件操作练习</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <ul>
+                        <li>Lecture 8</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week10 Section2</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>第8讲 面向对象</li> 
+                    </ul>
+                </td>
+                <td>
+                    <!--<ul>
+                        <li>
+                            <a href="PDF/Ch07SVM.pdf" target="_blank">[Slide]</a>
+                        </li>
+                        <li>
+                            <a href="Codes/Ch07SVM.rar" target="_blank">[源代码]</a>
+                        </li>
+                        <li>
+                            <a href="javascript:window.open(root+ 'Ch07SVMAssignment.ipynb','_blank')">课后作业</a>
+                            <a href="Html/Ch07SVMAssignment.html" target="_blank">课后作业</a>
+                            <a class="hidden" href="javascript:window.open(root+ 'Ch07SVMAnswers.ipynb','_blank')">(答案)</a>
+                            
+                            <a href="Html/Ch07SVMAnswers.html" target="_blank">(答案</a>
+                            <a href="NotebooksPDF/Ch07SVMAnswers.pdf" target="_blank">[PDF])</a>
+                        </li>
+                    </ul> -->
+                </td>
+            </tr>
+
+            <tr class="SyllabusDiscussion">
+                <td>
+                    <ul>
+                        <li>Programming</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week11</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>面向对象练习</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <ul>
+                        <li>Lecture 9</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week12 Section1</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>第9讲 异常</li>
+                    </ul>
+                </td>
+                <td>
+                    <!--<ul>
+                        <li>
+                            <a href="PDF/Ch08NeuralNetworks.pdf" target="_blank">[Slide]</a>
+                        </li>
+                        <li>
+                            <a href="Codes/Ch08NeuralNetworks.rar" target="_blank">[源代码]</a>
+                        </li>
+                        <li>
+                            <a href="Html/Ch08NeuralNetworksAssignment.html" target="_blank">课后作业</a>
+                            <a href="Html/Ch08NeuralNetworksAnswers.html" target="_blank">(答案</a>
+                            <a href="NotebooksPDF/Ch08NeuralNetworksAnswers.pdf" target="_blank">[PDF])</a>
+                        </li>
+                    </ul> -->
+                </td>
+            </tr>
+            
+            <tr class="SyllabusDiscussion">
+                <td>
+                    <ul>
+                        <li>Programming</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week12 Section2</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>面向对象练习</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <ul>
+                        <li>Lecture 10</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week13</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>第10讲 Python计算生态与常用库</li>
+                    </ul>
+                </td>
+                <td>
+                    <!--<ul>
+                        <li>
+                            <a href="PDF/Ch09Preprocessing.pdf" target="_blank">[Slide]</a>
+                        </li>
+                        <li>
+                            <a href="Codes/Ch09Preprocessing.rar" target="_blank">[源代码]</a>
+                        </li>
+                        <li>
+                            <a href="Html/Ch09PreprocessingAssignment.html" target="_blank">课后作业</a>
+                            <a href="Html/Ch09PreprocessingAnswers.html" target="_blank">(答案</a>
+                            <a href="NotebooksPDF/Ch09PreprocessingAnswers.pdf" target="_blank">[PDF])</a>
+                        </li>
+                    </ul> -->
+                </td>
+            </tr>
+            
+            <tr class="SyllabusDiscussion">
+                <td>
+                    <ul>
+                        <li>Programming</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week14 Section1</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Python常用库使用</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <ul>
+                        <li>Lecture 11</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week14 Section2</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>第11讲 案例讲解</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+
+            <tr class="SyllabusDiscussion">
+                <td>
+                    <ul>
+                        <li>Programming</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week15</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>案例实践</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <ul>
+                        <li>Lecture 11</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week16 Section1</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>第11讲 案例讲解</li>
+                    </ul>
+                </td>
+                <td>
+                    <!--<ul>
+                        <li>
+                            <a href="Codes/Ch12Pipe.rar" target="_blank">[源代码]</a>
+                        </li>
+                    </ul> -->
+                </td>
+            </tr>
+            
+             <tr class="SyllabusDiscussion">
+                <td>
+                    <ul>
+                        <li>Programming</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week16 Section2</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>案例实践</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <ul>
+                        <li>Review</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week17</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>复习</li>
+                    </ul>
+                </td>
+                <td>
+                    <!--<ul>
+                        <li>
+                            <a href="Codes/Ch12Pipe.rar" target="_blank">[源代码]</a>
+                        </li>
+                    </ul> -->
+                </td>
+            </tr>
+
+            <tr class="SyllabusDiscussion">
+                <td>
+                    <ul>
+                        <li>Final Exam</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Week18-19</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>期末考试</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <br />
+    <br />
+    <br />
+</body>
+
+<script type="text/javascript">
+    var root = 'https://nbviewer.jupyter.org/github/ouxinyu/Teaching/blob/master/MachineLearning/Notebooks/';
+</script>
+
+</html>
