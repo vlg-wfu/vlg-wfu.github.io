@@ -1,0 +1,914 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link href="Style/Style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>基于深度学习的计算机视觉应用</title>
+</head>
+
+<body>
+    <script type="text/javascript" src="Style/Navigation.js"></script>
+
+    <div id="Container">
+        <script type="text/javascript" src="Style/CourseCaption.js"></script>
+
+        <section id="Description">
+            <h2>教学计划</h2>
+            <p>本课程采用线上线下混合式教育模式进行，由于当前仍然属于建设期，因此资源将持续更新，恕不额外进行通告。本课程采用多种形式展开教学，主要包含如下几种模式。</p>
+            <ul>
+                <li><b>Lecture：</b>理论教学章节，两个学期共计12讲，全面介绍深度学习的背景，最经典的卷积神经网络，以及基于深度学习的分类、检测、分割以及其他图像分析应用。</li>
+                <li><b>Topic：</b>专题教学，目前主要包含两个专题：数据预处理和迁移学习。</li>
+                <li><b>Competitions：</b>课程竞赛，由学生在课后完成，提交后将获得额外的分数奖励。本课程提供部分Baseline模型。</li>
+                <li><b>课堂互动：</b>教学过程中的实时测验，主要为客观题，包括单选题、多选题和判断题。</li>
+                <li><b>知识点：</b>深度学习应用相关的知识点，这部分内容将持续进行增加和更新。</li>
+                <li><b>案例：</b>课程相关的完整项目案例，供学有余力的同学在课外进行实践，这部分内容也将持续进行增加和更新。</li>
+                <li><b>相关论文：</b>本课程理论教学相关的经典论文，本课程提供英文原版论文，建议有能力的同学进行重点阅读。</li>
+            </ul>
+            <p>
+                <b>教学文件：</b>
+                <a href="Documents/深度学习_教学大纲.pdf" target="_blank">教学大纲（课程说明）</a>
+                <a href="Documents/深度学习_考核说明.pdf" target="_blank">考核说明</a>
+                <a href="Documents/深度学习_教学进度计划（理实一体）（96课时）.pdf" target="_blank">教学进度计划(2020秋)</a>
+            </p>
+            <p><b>数据集：</b><a href="Datasets/index.html" target="_blank">本课程用到的所有第三方数据集</a></p>
+        </section>
+
+
+        <section id="Article">
+            <table id="Syllabus">
+                <tr class="SyllabusTitle">
+                    <th>章节</th>
+                    <th>进度</th>
+                    <th>课程内容</th>
+                    <th>理论<br/>学时</th>
+                    <th>实践<br/>学时</th>
+                    <th>作业及资料</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Lecture00</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Week1-1</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">《深度学习》课程导学 <span class="txtblue">（2课时）</span></li>
+                            <li>1. 课程基本信息</li>
+                            <li>2. 课程组织形式</li>
+                            <li>3. 课程作业与考核</li>
+                            <li>4. 学习建议</li>
+                            <li>5. VSCode、JupyterLab、百度AIStudio编程环境使用简介</li>
+                            <li class="txtblue">6. [项目01] Python机器学习环境安装和配置
+                                <a href="Html/Projects/Project01Installations.html" target="_blank">[Notebook]</a>
+                            </li>
+                        </ul>
+                    </td>
+                    <td style="vertical-align: middle;">1</td>
+                    <td style="vertical-align: middle;">1</td>
+                    <td>
+                        <ul>
+                            <li><a href="PDF/第00讲 课程导学.pdf" target="_blank">[Slides]</a></li>
+                            <li>习题及实践：</li>
+                            <li><a href="Html/Interactions/Lecture00GuidanceAssign.html" target="_blank">[课堂互动]</a></li>
+                            <li>扩展知识：</li>
+                            <li><a href="Html/Handouts/Handout01Numpy.html" target="_blank">[知识点01] Numpy极简使用说明</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Lecture01</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Week1-2</li>
+                            <li>Week2</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">深度学习概述<span class="txtblue">（6课时）</span>
+                                <a class="hidden" href="Html/Lecture01Introduction.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>1. 人工智能的基本概念(2)</li>
+                            <li>2. 机器学习简史(1)</li>
+                            <li>3. 深度学习日益流行的关键因素及其未来潜力(1)</li>
+                            <li>4. 深度学习的基本原理：基于梯度的优化(2)</li>
+                            <li>5. 学习常用工具软件</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><br/></li>
+                            <li>2</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>2</li>
+                            <li></li>
+                        </ul>
+                    </td>
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li>
+                                <a href="PDF/第01讲 深度学习概述.pdf" target="_blank">[Slides]</a>
+                            </li>
+                            <li>
+                                <a href="PDF/第01讲-附1 链接未来 未来已来v1.0.pdf" target="_blank">[Slides-附1 链接未来 未来已来v1.0]</a>
+                                <a href="https://pan.baidu.com/s/1Eoz6STt5DEAaPmZ5Yd8Myg" target="_blank">[百度网盘]</a>(提取码:nzgp)
+                            </li>
+                            <li>习题及实践：</li>
+                            <li><a href="Html/Interactions/Lecture01IntroductionAssign.html" target="_blank">[课堂互动]</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Lecture02</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Week3</li>
+                            <li>Week4</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">深度学习的起源——前馈神经网络 <span class="txtblue">（16课时）</span>
+                                <a class="hidden" href="Html/Lecture02FeedforwardNetwork.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>1. 神经网络的发展历程 (1)</li>
+                            <li>2. 感知机 </li>
+                            <li>3. 前馈神经网络 (1)</li>
+                            <li>4. 神经元、激活函数及网络结构 (1)</li>
+                            <li>5. 训练与预测（损失函数、参数学习）(1)</li>
+                            <li>6. 提升神经网络的技巧（参数更新、数据预处理、参数初始化、正则化）(2)</li>
+                            <li class="txtblue">7. [项目02] 基于前馈神经网络的手势识别（动态图）(10) <a href="Html/Projects/Project02FeedforwardNetworkDygraph.html" target="_blank">[Notebook]</a></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><br/></li>
+                            <li>1</li>
+                            <li><br/></li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>2</li>
+                            <li></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li>10</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><a href="PDF/第02讲 深度学习的起源——前馈神经网络.pdf" target="_blank">[Slides]</a></li>
+                            <li>习题及实践：</li>
+                            <li><a href="Html/Interactions/Lecture02FeedforwardNetworkAssign.html" target="_blank">[课堂互动]</a></li>
+                            <li>扩展知识：</li>
+                            <li><a href="Html/Handouts/Handout02ActivationFunction.html" target="_blank">[知识点02] 激活函数</a></li>
+                            <li><a href="Html/Handouts/Handout03LossFunction.html" target="_blank">[知识点03] 损失函数</a></li>
+                            <li><a href="Html/Handouts/Handout04Optimization.html" target="_blank">[知识点04] 优化方法</a></li>
+                            <li><a href="Html/Examples/Example01FeedforwardNetworkStatic.html" target="_blank">[案例01] 基于前馈神经网络的手写字体识别（静态图）</a></li>
+                            <li><a href="http://playground.tensorflow.org/" target="_blank">[扩展] 神经元工作过程演示</a></li>
+                            <li><a href="https://ruder.io/optimizing-gradient-descent/" target="_blank">[扩展] An overview of gradient descent optimization algorithms</a></li>
+                            <li><a href="http://ufldl.stanford.edu/tutorial/unsupervised/Autoencoders/" target="_blank">[扩展] UFLDL: AutoEncoder</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="SyllabusDiscussion">
+                    <td>
+                        <ul>
+                            <li>Topic</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">[专题01] 面向深度学习的图像数据预处理（10课时）
+                                <a class="hidden" href="Html/Topic/DataPreparation.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>1. 面向深度学习的图像数据预处理 (2)</li>
+                            <li class="txtblue">2. [项目03] 数据准备 (Data Preparation)<span class="txtblue"> (2)</span>
+                                <a href="Html/Projects/Project03DataPreparation.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li class="txtblue">3. [项目04] 数据规约与数据增广 (Data Augmentation)<span class="txtblue"> (6)</span>
+                                <a href="Html/Projects/Project04DataAugmentation.html" target="_blank">[Notebook]</a>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <li><br/></li>
+                        <li>2</li>
+                        <li><br/></li>
+                        <li><br/></li>
+                    </td>
+                    <td>
+                        <li><br/></li>
+                        <li><br/></li>
+                        <li>2</li>
+                        <li>6</li>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><a href="PDF/专题01 面向深度学习的图像预处理.pdf" target="_blank">[Slides]</a></li>
+                            <li><a href="Html/Interactions/Topic01DataPreprocessingAssign.html" target="_blank">[课堂互动]</a></li>
+                            <li><a href="Html/Homeworks/HW01DataPreparationAssign.html" target="_blank">[作业01] 数据准备</a></li>
+                            <li><a href="Html/Homeworks/HW02DataAugmentationAssign.html" target="_blank">[作业02] 数据规约与数据增广</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Lecture03</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Week4</li>
+                            <li>Week5</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">深度学习的灵魂——卷积神经网络 <span class="txtblue">（16课时）</span>
+                                <a class="hidden" href="Html/Lecture03ConvlutionalNetwork.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>1. 卷积神经网络概述(1)</li>
+                            <li>2. 卷积神经网络的整体结构（Architecture）(1)</li>
+                            <li>3. 输入层和输出层</li>
+                            <li>4. 卷积层（conv，padding，stride，局部感知、权重共享）(2)</li>
+                            <li>5. 池化层（max-pooling, average-pooling）、激活层和全连接层(1)</li>
+                            <li class="txtblue">6. [项目05] 卷积神经网络的结构设计与实现(3)
+                                <a href="Html/Projects/Project05ArchitechtureDesign.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>6. 推理与误差回传、模型的泛化(1)</li>
+                            <li class="txtblue">7. [项目06] 基于卷积神经网络的图像识别（车牌识别） (7)
+                                <a href="Html/Projects/Project06CNN.html" target="_blank">[Notebook]</a>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><br/></li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li><br/></li>
+                            <li>2</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li>2</li>
+                            <li><br/></li>
+                            <li>6</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><a href="PDF/第03讲 深度学习的灵魂——卷积神经网络.pdf" target="_blank">[Slides]</a></li>
+                            <li>习题及实践：</li>
+                            <li><a href="Html/Interactions/Lecture03ConvlutionalNetworkAssign.html" target="_blank">[课堂互动]</a></li>
+                            <li><a href="Html/Homeworks/HW03ArchitechtureDesignAssign.html" target="_blank">[作业03] 卷积神经网络的结构设计与实现</a></li>
+                            <li><a href="Html/Homeworks/HW04CNNAssign.html" target="_blank">[作业04] 基于CNN的彩色图片识别（口罩识别）</a></li>
+                            <li>扩展知识：</li>
+                            <li><a href="Html/Handouts/Handout05Visualization.html" target="_blank">[知识点05] 训练过程的可视化</a></li>
+                            <li><a href="https://poloclub.github.io/cnn-explainer/" target="_blank">[URL] CNN运算演示CNNExplainer</a></li>
+                            <li><a href="Html/Examples/Example02LeNet.html" target="_blank">[案例02] 基于LeNet的手写字体识别(MNIST)</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="SyllabusDiscussion">
+                    <td>
+                        <ul>
+                            <li>Competitions</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">[竞赛01] Garbage垃圾分类
+                                <!-- <a href="Html/Competitions/Comp01GarbageClassificationAssign.html" target="_blank">[Descriptions]</a> -->
+                                <a href="Html/Competitions/Comp01GarbageClassification.html" target="_blank">[Baseline]</a>
+                            </li>
+                        </ul>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li> </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Lecture04</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Week6</li>
+                            <li>Week7</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">深度学习的飞跃———经典卷积神经网络<span class="txtblue">（24课时）</span>
+                                <a class="hidden" href="Html/Lecture05ClassicalConvlutionalNetwork.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>1. 卷积神经网络关键技术回顾(2)</li>
+                            <li>2. 划时代的AlexNet(4)</li>
+                            <li class="txtblue">3. [项目07] 基于AlexNet的图像分类（蝴蝶分类）(12)
+                                <a href="Html/Projects/Project07Alexnet.html" target="_blank">[v2.1]</a>
+                                <a href="Html/Projects/Project07Alexnet_v18.html" target="_blank">[v1.8]</a>
+                            </li>
+                            <li>4. 越来越深VGGNet(2)</li>
+                            <li>5. 精心设计的GoogLeNet(1)</li>
+                            <li>6. 超越人的ResNet(2)</li>
+                            <li>7. 蓬勃发展的卷积深度网络(1)</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><br/></li>
+                            <li>2</li>
+                            <li>4</li>
+                            <li><br/></li>
+                            <li>2</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li>12</li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><a href="PDF/第04讲 深度学习的飞跃———经典卷积神经网络.pdf" target="_blank">[Slides]</a></li>
+                            <li>习题及实践：</li>
+                            <li><a href="Html/Interactions/Lecture04ClassicalConvlutionalNetworkAssign.html" target="_blank">[课堂互动]</a></li>
+                            <li><a href="Html/Homeworks/HW05AlexnetAssign.html" target="_blank">[作业05] 基于AlexNet的图像分类（十二生肖）</a></li>
+                            <li>扩展知识：</li>
+                            <li><a href="Html/Handouts/Handout06ModelSelection.html" target="_blank">[知识点06] 模型选择</a></li>
+                            <li>相关论文：</li>
+                            <li>
+                                <a href="https://ouxinyu.coding.net/s/e9d2694a-9241-4e9d-bbd6-caba65a305ed" title="ImageNet Classification with Deep Convolutional Neural Networks" target="_blank">AlexNet</a>
+                                <a href="References/[arXiv1409.1556v6] A Very deep convolutional networks for large-scale image recognition.pdf" title="A Very deep convolutional networks for large-scale image recognition" target="_blank">VGGNet</a>
+                                <a href="https://ouxinyu.coding.net/s/c9850328-b48d-4d6f-aa7e-f80a69e0290c" title="Deep Residual Learning for Image Recognition" target="_blank">ResNet</a>
+                                <a href="https://ouxinyu.coding.net/s/fae26c8e-c6ce-485b-8b32-1ca0de48db6b" title="Going Deeper with Convolutions" target="_blank">GoogLeNet</a>
+                                <a href="https://ouxinyu.coding.net/s/fae26c8e-c6ce-485b-8b32-1ca0de48db6b" title="Rethinking the Inception Architecture for Computer Vision" target="_blank">InceptionV2</a> <br/>
+                                <a href="https://ouxinyu.coding.net/s/a677a8ce-f13d-42e1-b057-83f5b6c0b41c" title="Batch Normalization_Accelerating Deep Network Training by Reducing Internal Covariate Shift" target="_blank">BatchNorm</a>
+                                <a href="https://ouxinyu.coding.net/s/9bcbb553-faea-4ff3-9713-44dff8803ca1" title="Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning" target="_blank">InceptionV4</a>
+                                <a href="https://ouxinyu.coding.net/s/c9850328-b48d-4d6f-aa7e-f80a69e0290c" title="Identity Mappings in Deep Residual Networks" target="_blank">IdentityMappings</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="SyllabusDiscussion">
+                    <td>
+                        <ul>
+                            <li>Topic</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">[专题02] 迁移学习（12课时）
+                                <a class="hidden" href="Html/Topic/Topic02TransferLearning.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>1. 迁移学习和恢复训练(2)</li>
+                            <li class="txtblue">2. [项目08] 迁移学习和恢复训练（蝴蝶分类）(10)
+                                <a href="Html/Projects/Project08TransferLearning.html" target="_blank">[Notebook]</a>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <li><br/></li>
+                        <li>2</li>
+                        <li><br/></li>
+                    </td>
+                    <td>
+                        <li><br/></li>
+                        <li><br/></li>
+                        <li>10</li>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><a href="PDF/专题02 迁移学习.pdf" target="_blank">[Slides]</a></li>
+                            <li><a href="Html/Interactions/Topic02TransferLearningAssign.html" target="_blank">[课堂互动]</a></li>
+                            <li><a href="Html/Homeworks/HW06TransferLearningAssign.html" target="_blank">[作业06] 迁移学习和恢复训练（十二生肖）</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Lecture05</li>
+                            <li><span class="txtblue">（NLP）</span></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Week8</li>
+                            <li>Week9-1</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">循环神经网络<span class="txtblue">（0课时）</span>
+                                <a class="hidden" href="Html/Lecture06RecurrentNeuralNetwork.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>1. 循环神经网络简介</li>
+                            <li>2. 长期依赖LSTM和门控RNN</li>
+                            <li>3. 双向RNN</li>
+                            <li>4. 序列到序列结构Seq2Seq</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Lecture06</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">深度学习的升华——深度生成模型<span class="txtblue">（8课时）</span>
+                                <a class="hidden" href="Html/Lecture06GenerativeModel.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>1. 监督学习和无监督学习(1)</li>
+                            <li>2. 生成模型概述(1)</li>
+                            <li>3. 像素RNN和像素CNN(1)</li>
+                            <li>4. 自动编码机、变分自动编码机(2)</li>
+                            <li>5. 生成对抗网络(3)</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><br/></li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li><a href="PDF/第06讲 深度学习的升华——深度生成模型.pdf" target="_blank">[Slides]</a></li>
+                            <li>习题及实践：</li>
+                            <li><a href="Html/Interactions/Lecture06GenerativeModelAssign.html" target="_blank">[课堂互动]</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Lecture07</li>
+                            <li><span class="txtblue">（自学）</span></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Week14-2</li>
+                            <li>Week15</li>
+                            <li>Week16-1</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">深度强化模型<span class="txtblue">（0课时）</span>
+                                <a class="hidden" href="Html/Lecture08ReinforcementLearning.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>1. 强化学习模型简介</li>
+                            <li>2. 强化学习分类</li>
+                            <li>3. 深度强化学习</li>
+                            <li>4. 深度Q网络</li>
+                            <li>5. 强化学习的应用</li>
+                            <li>6. AlphaGo和AlphaZero</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li><a href="#" target="_blank">[Slides (Stanford:CS231n)]</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="SyllabusDiscussion">
+                    <td>
+                        <ul>
+                            <li>Exams</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Week16-2</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <li class="bold">《深度学习》期末测验（在线）<span class="txtblue">（2课时）</span></li>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Lecture08</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Week6</li>
+                            <li>Week7</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">计算机视觉概述<span class="txtblue">（6课时）</span>
+                                <a class="hidden" href="Html/Lecture05ClassicalConvlutionalNetwork.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>1. 计算机视觉概述(1)</li>
+                            <li>2. 计算机视觉简史(3)</li>
+                            <li>3. 基于深度学习的视频内容理解(1)</li>
+                            <li>4. 面向海量视频的视觉计算与识别(1)</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><br/></li>
+                            <li>1</li>
+                            <li>3</li>
+                            <li>1</li>
+                            <li>1</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li><a href="PDF/第09讲 计算机视觉概述.pdf" target="_blank">[Slides]</a></li>
+                            <li>习题及实践：</li>
+                            <li><a href="Html/Interactions/Lecture08CVOverviewAssign.html" target="_blank">[课堂互动]</a></li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Lecture09</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Week6</li>
+                            <li>Week7</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">基于深度学习的目标检测<span class="txtblue">（30课时）</span>
+                                <a class="hidden" href="Html/Lecture05ClassicalConvlutionalNetwork.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>1. 目标检测概述(4)</li>
+                            <li>2. PaddleDetection简介</li>
+                            <li>3. 传统目标检测(1)</li>
+                            <li>4. 目标检测关键技术（Anchor,FPN,NMS）(1)</li>
+                            <li>5. 基于两阶段方法的目标检测（R-CNN,SPP-Net,Fast-RCNN,<br/>Faster-RCNN,FPN,Cascade R-CNN,Libra R-CNN）(6)</li>
+                            <li class="txtblue">6. [项目09] 基于R-CNN系列模型的目标检测（路标识别）(coco)(4)
+                                <a href="Html/Projects/Project09PaddleDetRoadSign.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>7. 基于单阶段方法的目标检测（YOLOv1-v3,SSD,RetinaNet,PP-YOLO）(4)</li>
+                            <li>8. 基于Anchor-Free的目标检测（CornerNet,FCOS,CenterNet,TTFNet）(4)</li>
+                            <li>9. Beyond 2D目标检测(1)</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><br/></li>
+                            <li>4</li>
+                            <li><br/></li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li><br/></li>
+                            <li>6</li>
+                            <li><br/></li>
+                            <li>4</li>
+                            <li>4</li>
+                            <li>1</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li><br/></li>
+                            <li>4</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><a href="PDF/第09讲 基于深度学习的目标检测.pdf" target="_blank">[Slides]</a></li>
+                            <li><a href="PDF/第09讲-附1 PaddleDetection简介v1.0.pdf" target="_blank">[Slides-附1 PaddleDetection简介v1.0]</a></li>
+                            <li>习题及实践：</li>
+                            <li><a href="Html/Interactions/Lecture09DetectionAssign.html" target="_blank">[课堂互动]</a></li>
+                            <li><a href="Html\Homeworks/HW07DetectionAssign.html" title="PaddleDetection" target="_blank">[作业07] 基于PaddleDetection的目标检测（口罩检测）</a></li>
+                            <li><a href="Html/Examples/Example03DetectionFallDown.html" target="_blank">[案例03] 基于PaddleDetection的摔倒检测（voc）</a></li>
+                            <li>扩展知识：</li>
+                            <li><a href="Html/Handouts/Handout07PascalAndMSCOCO.html" target="_blank">[知识点07] VOC和COCO数据标注方法</a></li>
+                            <li>相关论文：</li>
+                            <li>
+                                <a href="https://ouxinyu.coding.net/s/2ab17531-b8ce-4130-9d05-f3732f1d4482" target="_blank">[R-CNN]</a>
+                                <a href="https://ouxinyu.coding.net/s/4f175ed1-22d0-43c5-85db-bc5831a8e9d1" target="_blank">[SPP-CNN]</a>
+                                <a href="https://ouxinyu.coding.net/s/ad597d07-b636-4fa5-93d1-9e2d79983c52" target="_blank">[Fast-RCNN]</a>
+                                <a href="https://ouxinyu.coding.net/s/4de58276-e693-4ca7-9b1b-e29ef4bcd83a" target="_blank">[Faster-RCNN]</a>
+                                <a href="https://ouxinyu.coding.net/s/9252cd45-5d08-426e-8f58-3438fef254db" target="_blank">[Mask-RCNN]</a><br/>
+                                <a href="References/[arXiv1612TsungTiLin] Feature Pyramid Networks for Object Detection.pdf" target="_blank">[FPN]</a>
+                                <a href="References/[CVPR2018] Cascade R-CNN-Delving into High Quality Object Detection.pdf" target="_blank">[Cascade R-CNN]</a>
+                                <a href="References/[CVPR2019] Libra R-CNN Towards Balanced Learning for Object Detection.pdf" target="_blank">[Libra R-CNN]</a>
+                                <a href="https://ouxinyu.coding.net/s/940da8af-b0c1-406f-9452-4edb06f96695" target="_blank">[SSD]</a>
+                                <a href="https://ouxinyu.coding.net/s/d43bbfdf-c340-4687-ace1-cd7e81a464a5" target="_blank">[YoloV1]</a>
+                                <a href="https://ouxinyu.coding.net/s/f4a60a9b-8d7f-44ae-94dd-910bebda03e1" target="_blank">[YoloV2]</a><br/>
+                                <a href="https://ouxinyu.coding.net/s/11206b75-75c1-4ba2-9a3f-64123305a5f9" target="_blank">[YoloV3]</a>
+                                <a href="https://arxiv.org/abs/2004.10934" target="_blank">[YoloV4]</a>
+                                <a href="https://ouxinyu.coding.net/s/a6f3116d-a72f-462f-8f6b-429249a12d35" target="_blank">[RetinaNet]</a>
+                                <a href="https://arxiv.org/abs/2007.12099" target="_blank">[PP-YOLO]</a>
+                                <a href="https://arxiv.org/abs/2007.12099" target="_blank">[PP-YOLOv2]</a><br/>
+                                <a href="https://arxiv.org/abs/1808.01244" target="_blank">[CorerNet]</a>
+                                <a href="https://arxiv.org/abs/1904.01355" target="_blank">[FCOS]</a>
+                                <a href="https://arxiv.org/abs/1904.07850" target="_blank">[CenterNet]</a>
+                                <a href="https://arxiv.org/abs/1909.00700" target="_blank">[TTFNet]</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="SyllabusDiscussion">
+                    <td>
+                        <ul>
+                            <li>Competitions</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">[竞赛02] 目标检测综合竞赛(Pascal VOC2007 目标检测数据集)
+                                <a href="Html/Competitions/Comp02DetectionVOC.html" target="_blank">[Baseline]</a>
+                            </li>
+                        </ul>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li> </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Lecture10</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Week6</li>
+                            <li>Week7</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">基于深度学习的图像分割<span class="txtblue">（30课时）</span>
+                                <a class="hidden" href="Html/Lecture05ClassicalConvlutionalNetwork.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>1. 图像分割概述(1)</li>
+                            <li>2. 图像分割的关键技术和评价指标(3)</li>
+                            <li>3. 经典图像分割模型——FCN全卷积网路(2)</li>
+                            <li>4. 经典图像分割模型——U-Net/PSPNet(2)</li>
+                            <li>5. 经典图像分割模型——DeepLab系列分割模型(4)</li>
+                            <li class="txtblue">6. [项目10] 基于人像分割的背景替换(6)
+                                <a href="Html/Projects/Project10HumanSegmentation.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>7. 图卷积网络(2)</li>
+                            <li>8. 全景分割(4)</li>
+                            <!-- <li class="txtblue">9. [项目11] Scene15场景解析(6)
+                                <a href="Html/Projects/Project12DetectionPCBAnchorFree.html" target="_blank">[Notebook]</a>
+                            </li> -->
+                        </ul>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li><a href="PDF/第10讲 基于深度学习的图像分割.pdf" target="_blank">[Slides]</a></li>
+                            <li><a href="PDF/第10讲-附1 PaddleSeg简介v1.0.pdf" target="_blank">[Slides-附1 PaddleSeg简介v1.0]</a></li>
+                            <li>习题及实践：</li>
+                            <li><a href="Html/Interactions/Lecture10SegmentationAssign.html" target="_blank">[课堂互动]</a></li>
+                            <li><a href="Html\Experiments\Lecture05ImageAnalysis\HW02FaceParsingAssign.html" title="FaceParsing" target="_blank">[作业08] 基于全景分割的ADE20K室内场景解析</a></li>
+                            <li><a class="hidden" href="Html\Experiments\Lecture05ImageAnalysis\HW02FaceParsing.html" title="FaceParsing" target="_blank"> (答案)</a></li>
+                            <li>相关论文：</li>
+                            <li>
+                                <a href="References/[TPAMI2015Jopnathan] Fully convolutional networks for semantic segmentation.pdf" target="_blank">[FCN]</a>
+                                <a href="References/[TPAMI2017Badrinarayanan] SegNet A Deep Convolutional Encoder-Decode.pdf" target="_blank">[SegNet]</a>
+                                <a href="References/[arXiv2018HeKaiming] Mask R-CNN.pdf" target="_blank">[Mask-RCNN]</a>
+                                <a href="References/[TPAMI2017LiangChiehChe] DeepLab Semantic Image Segmentation.pdf" target="_blank">[DeepLabV2]</a>
+                                <a href="References/[arXiv2017LiangChiehChe] Rethinking Atrous Convolution for Semantic Image Segmentation.pdf" target="_blank">[DeepLabV3]</a><br/>
+                                <a href="References/[ECCV2018LiangChiehChe] Encoder-Decoder with AtrousConv for Semantic Image Segmentation.pdf" target="_blank">[DeepLabV3+]</a>
+                                <a href="References/[arXiv1912] SOLO-Segmenting Objects by Locations.pdf" target="_blank">[SOLO]</a>
+                                <a href="References/[NIPS2020] SOLOv2-Dynamic, Faster and Stronger.pdf" target="_blank">[SOLOv2]</a>
+                                <a href="References/[arXiv2019] UPSNet-A Unified Panoptic Segmentation Network.pdf" target="_blank">[UPSNet]</a>
+                                <a href="References/[CVPR2020] Panoptic-DeepLab-A Simple, Strong, and Fast Baseline for Bottom-Up Panoptic Segmentation.pdf" target="_blank">[Panoptic-DeepLab]</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Lecture11</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Week6</li>
+                            <li>Week7</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">其他经典图像分析任务<span class="txtblue">（28课时）</span>
+                                <a class="hidden" href="Html/Lecture05ClassicalConvlutionalNetwork.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>1. 图像检索</li>
+                            <li class="txtblue">2. [项目11] 基于内容的图像检索(6)
+                                <a href="Html/Projects/Project11ZodiacRetrieval.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>3. 目标跟踪</li>
+                            <li>4. 风格迁移</li>
+                            <li>5. 其他经典图像分析任务：细粒度识别、文字检测与识别<br/>标题生成、超分辨率、医学图像分析</li>
+                            <li class="txtblue">6. [项目12] 人脸妆容迁移(6)
+                                <a href="Html/Projects/Project12DetectionPCBAnchorFree.html" target="_blank">[Notebook]</a>
+                            </li>
+                        </ul>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li><a href="PDF/第11讲 其他经典图像分析任务.pdf" target="_blank">[Slides]</a></li>
+                            <li>习题及实践：</li>
+                            <li><a href="Html/Interactions/Lecture11ImageAnalysisAssign.html" target="_blank">[课堂互动]</a></li>
+                            <!-- <a href="Html\Experiments\Lecture05ImageAnalysis\HW01SceneParsingAssign.html" title="SceneParsing" target="_blank">[作业10] 基于人脸的考勤系统</a>-->
+                            <li>相关论文：</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Lecture12</li>
+                            <li><span class="txtblue">（自学）</span></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Week14-2</li>
+                            <li>Week15</li>
+                            <li>Week16-1</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="bold">深度学习工程应用<span class="txtblue">（0课时）</span>
+                                <a class="hidden" href="Html/Lecture12ReinforcementLearning.html" target="_blank">[Notebook]</a>
+                            </li>
+                            <li>1. 视觉应用场景与部署</li>
+                            <li>2. 嵌入式系统开发及应用</li>
+                            <li>3. 垂直领域工程应用开发</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+                <tr class="SyllabusDiscussion">
+                    <td>
+                        <ul>
+                            <li>Exams</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Week16-2</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <li class="bold">《计算机视觉》期末测验（在线）<span class="txtblue">（2课时）</span></li>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
+
+    </div>
+
+    <script type="text/javascript " src="Style/Copyright.js "></script>
+</body>
+
+</html>

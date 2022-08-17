@@ -1,0 +1,236 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Microsoft YaHei';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #5D5D5D;
+}
+
+p {
+    line-height: 1.2em;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: olive;
+    margin: 30px 0 20px 0;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    margin: 20px 0 10px 0;
+}
+
+h6 {
+    text-align: center;
+    font: 20px normal;
+    color: olive;
+    margin: 20px 0 0 0;
+}
+
+a,
+a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #A4AA04;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #5D5D5D;
+}
+
+ul {
+    line-height: 30px;
+}
+
+li {
+    list-style: none;
+    line-height: 2em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.txtblue {
+    color: blue;
+}
+
+.hidden {
+    display: none;
+}
+
+#HeaderNavigation {
+    width: 100%;
+    min-width: max-content;
+    height: 100px;
+    background-color: brown;
+    color: aquamarine;
+}
+
+#Container_HeaderNavigation {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+#Navigation {
+    float: right;
+    padding-right: 40px;
+}
+
+#Navigation ul {
+    padding-right: 20px;
+    height: 100px;
+    line-height: 100px;
+}
+
+#Navigation li {
+    display: inline;
+    list-style: none;
+    padding: 0 20px;
+}
+
+#Navigation a,
+#Navigation a:hover {
+    font-size: 26px;
+    outline: none;
+    color: antiquewhite;
+}
+
+#Navigation a:hover {
+    color: greenyellow;
+    font-weight: bold;
+}
+
+#Container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+#CourseCaption {
+    width: 100%;
+    margin: 30px auto;
+}
+
+#CourseCaption p {
+    text-align: center;
+    line-height: 2em;
+}
+
+#Description {
+    width: 100%;
+    padding: 1px 20px 20px 20px;
+    background-color: ivory;
+}
+
+#Description p {
+    line-height: 36px;
+}
+
+#Description li {
+    list-style: disc inside;
+}
+
+#Article {
+    width: 100%;
+    padding: 30px 0;
+}
+
+#Article p {
+    line-height: 30px;
+}
+
+
+/***** TeachingTeam ******/
+
+#TeachingTeam {
+    width: 900px;
+    padding-bottom: 30px;
+}
+
+#TeachingTeam td {
+    padding: 10px 0 0 0;
+    text-align: center;
+    width: 150px;
+}
+
+#TeachingTeam a {
+    color: darkviolet;
+    font-weight: bold;
+}
+
+#TeachingTeam a:hover {
+    color: fuchsia;
+}
+
+.indentText {
+    list-style: disc inside;
+    text-indent: 40px;
+}
+
+
+/***** Copyright ******/
+
+#Copyright {
+    width: 100%;
+    background-color: brown;
+    height: 70px;
+    text-align: center;
+    color: antiquewhite;
+    padding: 10px 0;
+}
+
+#Copyright p {
+    line-height: 32px;
+    color: antiquewhite;
+}
+
+#Copyright a {
+    color: antiquewhite;
+}
+
+#Copyright a:hover {
+    color: yellow;
+}
+
+
+/****** Content Pages ******/
+
+#Syllabus {
+    width: 96%;
+    margin: 0 auto;
+}
+
+#Syllabus td {
+    margin: 10px;
+    border-bottom: silver 1px solid;
+    vertical-align: top;
+    padding: 10px 20px;
+}
+
+.SyllabusTitle {
+    height: 40px;
+    line-height: 40px;
+    background-color: silver;
+}
+
+.SyllabusDiscussion {
+    background-color: lavender;
+}
+
+#Syllabus li {
+    list-style-type: none;
+}
