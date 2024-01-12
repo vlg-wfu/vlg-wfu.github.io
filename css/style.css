@@ -145,6 +145,12 @@ pre{
   background-color: #f5f5f5;
 }
 
+.people-section-bs{
+  padding-top: 20px; 
+  padding-bottom: 20px; 
+  background-color: #f5f5f5;
+}
+
 .people-section-alumni{
   padding-top: 20px;
   padding-bottom: 20px; 
@@ -159,6 +165,7 @@ pre{
 .people-section-collaborator{
   padding-top: 20px;
   padding-bottom: 20px; 
+  background-color: #ffffff;
 }
 
 .people-topic{
